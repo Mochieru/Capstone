@@ -1,0 +1,66 @@
+/* Background */
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Logos styling */
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Login form */
+.login-form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+/* Form inputs */
+.form-control {
+    border-radius: 10px;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+}
+/* Logo inside the form */
+.form-logo-img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.form-control:focus {
+    border-color: #4f93ce;
+    box-shadow: none;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #4f93ce;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3c7cb8;
+}
+
+/* Footer */
+footer p {
+    font-size: 0.85rem;
+    color: #555;
+}
